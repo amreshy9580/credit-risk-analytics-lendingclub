@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 28 14:14:17 2026
-
-@author: DELL
-"""
-
 # LendingClub Credit Risk & Loan Performance Analysis
 
 ## Executive Summary
