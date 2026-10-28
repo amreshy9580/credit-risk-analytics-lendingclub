@@ -7,6 +7,9 @@ Created on Tue Sep 15 17:47:47 2026
 
 import numpy as np 
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 file_path = r"C:\Users\DELL\.spyder-py3\archive\loan\loan.csv"
 df = pd.read_csv(file_path, low_memory = False)
 print("Dataset Successfully Loaded")
@@ -174,8 +177,7 @@ print("Mean Annual Income:   $", round(income_mean, 2))
 print("Median Annual Income: $", round(income_median, 2))
 
 # Visualizing Loan Distribution with Matplotlib & Seaborn
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 # Set visual style
 sns.set_theme(style="whitegrid")
